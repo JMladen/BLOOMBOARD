@@ -1,0 +1,14 @@
+.bs-container {
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.button-con {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}

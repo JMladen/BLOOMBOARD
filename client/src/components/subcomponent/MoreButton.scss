@@ -1,0 +1,26 @@
+.button-con {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.morebutton {
+  padding: 0 2px;
+  height: 45px;
+  width: 130px;
+  border: 2px solid #00796b;
+  background-color: white;
+  margin-bottom: 3rem;
+  color: #00796b;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color 0.3s, color 0.3s, transform 0.2s;
+
+  &:hover {
+    border-color: #4caf50;
+    color: #4caf50;
+    transform: scale(1.05);
+  }
+}

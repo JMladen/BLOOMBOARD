@@ -1,0 +1,49 @@
+.benefit {
+  width: 310px;
+  height: 480px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin: 0 2px;
+  position: relative;
+  margin-bottom: 4px;
+
+  &:hover {
+    transform: translateY(-6px);
+    transition-duration: 500ms;
+  }
+
+  .image {
+    height: 17rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .flexContainer {
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+    padding-top: 6px;
+  }
+
+  .content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+      margin-top: 8px;
+      margin-bottom: 2px;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+
+    .description {
+      text-align: center;
+      padding: 4px;
+      font-size: 14px;
+      color: #788187;
+    }
+  }
+}
