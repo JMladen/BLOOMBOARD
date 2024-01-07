@@ -10,7 +10,7 @@ export default function Benefits() {
   return (
     <div className="benefits-con">
       <h1>BENEFITS</h1>
-      <div className="benefits-subcon ">
+      <div className="benefits-subcon">
         <Benefit
           allimage={b1}
           title={"Breathe Free"}

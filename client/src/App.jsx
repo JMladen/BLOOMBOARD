@@ -39,7 +39,7 @@ function App() {
       <>
         <Header bag={bag} headerBG={headerBG} />
 
-        <BestSellers />
+        <BestSellers plants={plants} />
         <Benefits />
         <OurCollection plants={plants} />
         <NewArrivals pic={newarrivals} />
