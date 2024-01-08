@@ -428,48 +428,16 @@ There is no authentication at the moment.
 
 ### Dependencies
 
-In your server you must install:
+## Install & Run
 
-- npm i
-- npm i express
-- npm i cors
+# client
 
-In your client you must install:
+cd client
+npm i
+npm start
 
-- tailwindcss
-- react-icons
+# server
 
-When I ask chatGPT to explain this "like a grandma", she says the following:
-"
-Sure thing! If I were explaining it like a grandma:
-
-Open the door to your computer home:
-
-Make sure you have Node.js and npm installed. If not, go to Node.js website, download, and install it.
-Gather the ingredients (packages):
-
-Open a cozy terminal or command prompt in your app's folder.
-Install the packages:
-
-Type npm install react react-dom react-router-dom and press Enter.
-Wait for the magic to happen. This installs React and some tools to make it work.
-Add some flair (install styles):
-
-Type npm install node-sass and press Enter.
-This will make your app look stylish.
-Fetch the things (installing dependencies for your app):
-
-Type npm install and press Enter.
-This will read your "package.json" and fetch all the needed things.
-Start the show:
-
-Type npm start and press Enter.
-Your app will start dancing on http://localhost:3000 in your browser.
-Enjoy your creation:
-
-Open your web browser and go to http://localhost:3000.
-You should see your app smiling back at you.
-If you ever need to stop the show, go back to the cozy terminal and press Ctrl + C (or Cmd + C on a Mac).
-
-Remember, if you get stuck or need help, don't hesitate to ask your friendly assistant (or me)! 🌟
-"
+cd server
+npm i
+npm start
