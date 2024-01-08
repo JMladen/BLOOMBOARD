@@ -1,11 +1,10 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 
 import "./App.scss";
 
 //components
 import Header from "./components/Header";
 import Explore from "./components/Explore";
-import CartPage from "./components/CartPage";
 
 import Benefits from "./components/Benefits";
 import BestSellers from "./components/BestSellers";
@@ -23,8 +22,6 @@ import gmail from "./images/mail.png";
 
 function App() {
   const [plants, setPlants] = useState([]);
-  // const [exploreStatus, setExploreStatus] = useContext([]);
-  // const { exploreStatus } = useContext(Context);
 
   useEffect(() => {
     fetch("/api/plants")

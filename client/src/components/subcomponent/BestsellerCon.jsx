@@ -8,7 +8,6 @@ export default function BestsellerCon({ plants }) {
     <div className="bestseller-con">
       {displayedPlants.map((plant, index) => (
         <div key={index} className="flex-container">
-          {/* <div className="flex-container"> */}
           <img src={plant.img} alt="arrival" className="image" />
           <div className="text-container">
             <p className="title">{plant.subtype}</p>

@@ -24,7 +24,12 @@ BLOOMBOARD makes it so that users can purchase rare plants, with ease and peace 
 
 ### Users
 
-Anybody with an internet connection can use the app to browse and buy plants as a guest.
+Anybody can use the app to browse and buy plants as a guest.
+
+- Plant Lovers:
+  - looking for new and special plant baby
+  - looking for gift ideas
+  - that want to see want new and eventful in the plant market
 
 ### Features
 
