@@ -13,6 +13,10 @@
     margin-top: 1rem;
     border: solid lightgrey;
     background-color: white;
+    @media (max-width: 640px) {
+      width: 70%;
+      // height: 8rem;
+    }
 
     &:hover {
       transform: translateX(4px);
@@ -20,7 +24,11 @@
     }
 
     .image {
-      width: 50%;
+      width: 100%;
+      @media (max-width: 640px) {
+        width: 70%;
+        height: 8rem;
+      }
       height: 20rem;
       margin-left: auto;
       margin-right: auto;

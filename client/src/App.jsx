@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 
 import "./App.scss";
-import { Context } from "./Context";
 
 //components
 import Header from "./components/Header";
