@@ -33,7 +33,9 @@ export default function Header() {
         }
       >
         <div className="logo-text">
-          <a href="/">BLOOMBOARD</a>
+          <a className="logo-text" href="/">
+            BLOOMBOARD
+          </a>
         </div>
         <div>
           <ul className="nav-list">

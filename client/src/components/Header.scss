@@ -69,7 +69,11 @@
   font-size: 30px;
 }
 
-.logo-text {
+.header-logo-text {
+  @media (max-width: 640px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
   font-size: 1.875rem;
 }
 
