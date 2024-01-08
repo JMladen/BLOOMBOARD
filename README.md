@@ -67,7 +67,6 @@ Anybody can use the app to browse and buy plants as a guest.
 
 - Home page
 - Explore page
-- Shopping cart page (in progress)
 
 ### Screenshots
 
