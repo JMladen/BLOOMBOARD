@@ -27,18 +27,18 @@ BLOOMBOARD makes it so that users can purchase rare plants, with ease and peace 
 Anybody can use the app to browse and buy plants as a guest.
 
 - Plant Lovers:
-  - looking for new and special plant baby
+  - looking for new and special "plant babies"
   - looking for gift ideas
-  - that want to see want new and eventful in the plant market
+  - that want to see what is new and eventful in the plant market
 
 ### Features
 
 - As a user, I want to be able to easily navigate an online plant store
 - As a user, I want to be able to access the majority of the functionality of the site without creaing an account
 - As a user, I want to be able to purchase a plant without creating an account
-- As a user, I want to know that the plants I am purchasing are in great condition and have not been significantly dmaaged in transport
+- As a user, I want to know that the plants I am purchasing are in great condition and have not been damaged in growing or transport
 - As a user, I want to be able to view product both common and rare plant offerings
-- As a user, I want to be able to filter through the catalogue of available plants based on the plant colloquial name
+- As a user, I want to be able to filter through the catalogue of available plants based on the plant's colloquial name
 
 ## Implementation
 
@@ -59,9 +59,29 @@ Anybody can use the app to browse and buy plants as a guest.
   - express
   - node.js
 
-### APIs
+## Installation
 
-- None are being used in the current iteration of this app
+### Dependencies
+
+## Install & Run
+
+Step 1: Copy and paste the below code in the terminal to install and run the server:
+
+# server
+
+cd server
+npm i
+npm start
+
+Step 2: Open a second terminal tab
+
+Step 3: Copy and paste the below code in the terminal to install and run the client:
+
+# client
+
+cd client
+npm i
+npm start
 
 ### Sitemap
 
@@ -103,6 +123,7 @@ See "screenshots" folder
 ### Data
 
 Sample of Curated Server-side Dataset (See more in /server/data):
+
 [
 {
 "type": "Anthurium",
@@ -148,7 +169,7 @@ Sample of Curated Server-side Dataset (See more in /server/data):
 
   - Subfeature: Bestseller
 
-    - Implement a section showing plants that users will liekly enjoy
+    - Implement a section showing plants that users will likely enjoy
 
   - Subfeature: Benefits
 
@@ -188,21 +209,3 @@ Sample of Curated Server-side Dataset (See more in /server/data):
 - Wishlist for users to favourite plants they desire
 - User recommended offerings
 - User reviews
-
-## Installation
-
-### Dependencies
-
-## Install & Run
-
-# client
-
-cd client
-npm i
-npm start
-
-# server
-
-cd server
-npm i
-npm start

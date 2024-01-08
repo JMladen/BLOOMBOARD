@@ -14,7 +14,7 @@ export default function OurCollection({ plants }) {
   };
 
   const handleSeeMoreClick = () => {
-    // Use the navigate function to navigate to the "/explore" page
+    // Use navigate function to navigate to the "/explore" page
     navigate("/explore");
 
     // Scroll to the top of the page
