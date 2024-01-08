@@ -1,16 +1,23 @@
 .footer-container {
   background-color: #047857;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   height: 8.5rem;
-  align-items: flex-start;
   text-align: left;
   color: #ffffff;
   text-transform: uppercase;
-  padding-left: 7rem;
-  padding-right: 6rem;
-  padding-top: 2rem;
+  @media (min-width: 640px) {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+
+    padding-left: 7rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+  }
 }
 
 .logo-container {

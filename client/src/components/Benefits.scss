@@ -7,10 +7,13 @@
   justify-content: space-evenly;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
   width: 80%;
-  overflow-x: auto;
   padding-top: 1.5rem;
+  @media (max-width: 640px) {
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 
 .flexContainer {
@@ -23,8 +26,11 @@
 .imageContainer {
   position: relative;
   margin-top: 6px;
-  height: 600px;
+  height: calc(fit-content + 1rem);
   overflow: hidden;
+  @media (max-width: 900px) {
+    display: none;
+  }
 }
 
 img {

@@ -1,44 +1,3 @@
-// import React, { useState } from "react";
-// import FilterButtons from "./subcomponent/FilterButtons";
-// import ExploreItem from "./subcomponent/ExploreItem";
-// import MoreButton from "./subcomponent/MoreButton";
-// import { useNavigate } from "react-router-dom";
-
-// import "./ShopCollection.scss";
-
-// export default function ShopCollection({ plants }) {
-//   const navigate = useNavigate();
-//   const [selectedFilter, setSelectedFilter] = useState(null);
-
-//   const handleFilterClick = (filterName) => {
-//     // Update the selected filter
-//     setSelectedFilter(filterName);
-//   };
-
-//   {
-//     plants.map((plant, index) => <ExploreItem key={index} items={plant} />);
-//   }
-//   return (
-//     <div className="shopcollection-con">
-//       <div className="shopfilter-bar">
-//         <FilterButtons name={"Anthurium"} />
-//         <FilterButtons name={"Monstera"} />
-//         <FilterButtons name={"Orchid"} />
-//         <FilterButtons name={"Philodendron"} />
-//         <FilterButtons name={"Other"} />
-//       </div>
-
-//       <div className="shoping-con">
-//         {plants.map((plant, index) => (
-//           <ExploreItem key={index} items={plant} />
-//         ))}
-//       </div>
-//       <button className="morebutton" onClick={() => navigate("/")}>
-//         BACK HOME
-//       </button>
-//     </div>
-//   );
-// }
 import React, { useState } from "react";
 import FilterButtons from "./subcomponent/FilterButtons";
 import ExploreItem from "./subcomponent/ExploreItem";
@@ -49,8 +8,15 @@ export default function ShopCollection({ plants }) {
   const navigate = useNavigate();
   const [selectedFilter, setSelectedFilter] = useState(null);
 
+  const handleBackHomeClick = () => {
+    // Use the navigate function to navigate to the "/explore" page
+    navigate("/");
+
+    // Scroll to the top of the page
+    window.scrollTo({ top: 0, behavior: "instant" });
+  };
+
   const handleFilterClick = (filterName) => {
-    // Update the selected filter
     setSelectedFilter(filterName);
   };
 
@@ -77,9 +43,11 @@ export default function ShopCollection({ plants }) {
           <ExploreItem key={index} items={plant} />
         ))}
       </div>
-      <button className="morebutton" onClick={() => navigate("/")}>
-        BACK HOME
-      </button>
+      <div className="button-con">
+        <button className="morebutton" onClick={handleBackHomeClick}>
+          BACK HOME
+        </button>
+      </div>
     </div>
   );
 }

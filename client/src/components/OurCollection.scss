@@ -3,6 +3,8 @@
   padding-left: 0.5rem;
   background-color: #f0f4f7;
   @media (min-width: 640px) {
+    // margin-top: -5rem;
+    // padding-top: 0rem;
     padding-left: 0;
   }
 }
@@ -10,7 +12,7 @@
 .filter-bar {
   display: flex;
   overflow-x: auto;
-  justify-content: center;
+  // justify-content: center;
 
   @media (min-width: 640px) {
     justify-content: center;

@@ -60,7 +60,7 @@ export default function OurCollection({ plants }) {
     navigate("/explore");
 
     // Scroll to the top of the page
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: "instant" });
   };
 
   // Filter plants based on the selected filter
