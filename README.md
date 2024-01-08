@@ -69,27 +69,41 @@ Anybody can use the app to browse and buy plants as a guest.
 - Explore page
 - Shopping cart page (in progress)
 
-### Mockups
+### Screenshots
 
-#### Home Page
+See "screenshots" folder
 
-![](Home page.jpg)
+#### Header
 
-#### Home Page
+![](Header.png)
 
-![](Selected plant listing popup window.jpg)
+#### BestSellers
 
-#### Register Page
+![](BestSellers.png)
 
-![](Login page and Signup page.jpg)
+#### Benefits
 
-#### Login Page
+![](Benefits.png)
 
-![](Login page and Signup page.jpg)
+#### OurCollection
+
+![](OurCollection.png)
+
+#### NewArrivals
+
+![](NewArrivals.png)
+
+#### Footer
+
+![](Footer.png)
+
+#### Footer
+
+![](Explore.png)
 
 ### Data
 
-Curated Server-side Dataset:
+Sample of Curated Server-side Dataset (See more in /server/data):
 [
 {
 "type": "Anthurium",
@@ -114,256 +128,8 @@ Curated Server-side Dataset:
 "temp": 13,
 "price": 80,
 "img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/644D/2CA0/8E92/2735/187D/2D4C/700B/5A7F/Amazon_Diamond__8216_Inverse_8217__ml.JPG"
-},
-{
-"type": "Anthurium",
-"id": 3,
-"subtype": "Anthurium Luxurians 'Big'",
-"desc": "This gorgeous tropical is found in the rainforests of Columbia. It's textured surface reflects light unlike other Anthuriums, adding an elegant vibrance to any room.",
-"humidity": "High",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 12,
-"price": 85,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/5CE5/803C/4A86/985B/7102/C0A8/DA44/0B0A/Anthurium_luxurians_one_ml.JPG"
-},
-{
-"type": "Anthurium",
-"id": 4,
-"subtype": "Anthurium Raven Soul",
-"desc": "Anthurium Raven Soul",
-"humidity": "High",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 15,
-"price": 200,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/628F/C1B1/D3E2/1912/316A/2D4C/700B/543D/Anth._Ravel_Soul_Dark_ml.JPG"
-},
-{
-"type": "Anthurium",
-"id": 5,
-"subtype": "Anthurium papillilaminum",
-"desc": "Anthurium papillilaminum",
-"humidity": "High",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 15,
-"price": 140,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/64A5/7652/517B/886A/B9EF/2D4C/700B/2E47/Anth._papillilaminum_ml.JPG"
-},
-{
-"type": "Monstera",
-"id": 6,
-"subtype": "Monstera Delicosa",
-"desc": "Monstera Delicosa",
-"humidity": "Low",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 10,
-"price": 30,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/5D6E/CC17/FA72/3714/2DC1/C0A8/DA44/8763/Monstera_deliciosa2.jpg"
-},
-{
-"type": "Monstera",
-"id": 7,
-"subtype": "Monstera adansonii",
-"desc": "Monstera adansonii",
-"humidity": "Low",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 10,
-"price": 35,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/5DDD/7B08/06CB/B9A7/BDA3/C0A8/DA44/ABAC/Monstera_adansonii_ml.JPG"
-},
-{
-"type": "Monstera",
-"id": 8,
-"subtype": "Monstera Thai Constellation",
-"desc": "Monstera Thai Constellation",
-"humidity": "Low",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 10,
-"price": 75,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/62D0/962D/AE7D/2F54/7363/2D4C/700B/07C8/Monstera_Thai_Constellation_plant_ml.JPG"
-},
-{
-"type": "Monstera",
-"id": 9,
-"subtype": "Monstera obliqua Perú",
-"desc": "Monstera obliqua Perú",
-"humidity": "Low",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 10,
-"price": 120,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/61C4/BC35/BA17/72EC/9B01/2D4C/700B/E4F2/Monstera_obliqua_peru_ml.JPG"
-},
-{
-"type": "Monstera",
-"id": 10,
-"subtype": "Monstera dubia",
-"desc": "Monstera dubia",
-"humidity": "Low",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 10,
-"price": 30,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/60E0/8D78/A8D4/FADB/4195/C0A8/DA02/49B0/Monstera_dubia_ml.jpeg"
-},
-{
-"type": "Orchid",
-"id": 11,
-"subtype": "Cattleya intermedia coerulea Gigi",
-"desc": "Cattleya intermedia coerulea Gigi",
-"humidity": "Low",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 17,
-"price": 120,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/6398/9568/74CB/5DA3/E041/2D4C/700B/A08D/Cattleya_intermedia_coerulea_Gigi_ml.jpg"
-},
-{
-"type": "Orchid",
-"id": 12,
-"subtype": "Paphiopedilum rothschildianum 'Green Valley x Fly Eagle'",
-"desc": "Paphiopedilum rothschildianum 'Green Valley x Fly Eagle'",
-"humidity": "Medium",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 16,
-"price": 150,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/6397/8644/EB16/F981/2A54/2D4C/700B/F481/Paphiopedilum_rothschildianum_Green_Valley_x_Fly_Eagle_ml.jpg"
-},
-{
-"type": "Orchid",
-"id": 13,
-"subtype": "Laelia superbiens alba",
-"desc": "Laelia superbiens alba",
-"humidity": "Low",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 17,
-"price": 90,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/638F/3983/4FA0/80F7/E81A/2D4C/700B/DAD2/Laelia_superbiens_alba__ml.JPG"
-},
-{
-"type": "Orchid",
-"id": 14,
-"subtype": "Maxillaria sanderiana black lip",
-"desc": "Maxillaria sanderiana black lip",
-"humidity": "Medium",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 15,
-"price": 35,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/5F4A/697B/3ED8/AF4A/D1B7/C0A8/DA02/887F/Maxillaria_sanderiana_black_lip2_ml.JPG"
-},
-{
-"type": "Orchid",
-"id": 15,
-"subtype": "Cattleya maxima 'Muñequita' x 'Roy'",
-"desc": "Cattleya maxima 'Muñequita' x 'Roy'",
-"humidity": "Low",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 14,
-"price": 50,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/6409/D837/2932/FA42/DD91/2D4C/700B/FCB8/Cattleya_maxima_Munequita_x_Roy_ml.jpg"
-},
-{
-"type": "Philodendron",
-"id": 16,
-"subtype": "Philodendron mamei Silver",
-"desc": "Philodendron mamei Silver",
-"humidity": "Medium",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 11,
-"price": 85,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/5FFF/A54B/4937/5DD3/8A62/C0A8/DA02/E3A1/Philodendron_mamei_silver_plantc_ml.JPG"
-},
-{
-"type": "Philodendron",
-"id": 17,
-"subtype": "Philodendron Vibes",
-"desc": "Philodendron Vibes",
-"humidity": "High",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 10,
-"price": 90,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/5FFF/A54B/4937/5DD3/8A62/C0A8/DA02/E3A1/Philodendron_mamei_silver_plantc_ml.JPG"
-},
-{
-"type": "Philodendron",
-"id": 18,
-"subtype": "Philodendron verrucosum Amazon Sunset",
-"desc": "Philodendron verrucosum Amazon Sunset",
-"humidity": "High",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 11,
-"price": 80,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/60D7/37A9/09F3/1E34/52C5/C0A8/DA02/15A3/P_Verrucosum_Amazonsunset_back_ml.JPG"
-},
-{
-"type": "Philodendron",
-"id": 19,
-"subtype": "Philodendron verrucosum hummingbird",
-"desc": "Philodendron verrucosum hummingbird",
-"humidity": "",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 10,
-"price": 90,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/6269/5C7F/C262/2CED/F9BF/2D4C/700B/CAE6/Philodendron_verrucosum_hummingbird_back_ml.JPG"
-},
-{
-"type": "Other",
-"id": 20,
-"subtype": "Columnea flexiflora",
-"desc": "Columnea flexiflora",
-"humidity": "Low",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 15,
-"price": 40,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/596A/128F/824D/A619/6EA0/C0A8/DA44/1AD7/Columnea_flexiflora._ml.JPG"
-},
-{
-"type": "Other",
-"id": 21,
-"subtype": "Cattleya Orange Delight",
-"desc": "Cattleya Orange Delight",
-"humidity": "Medium",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 15,
-"price": 70,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/640F/4EB3/3515/0FEA/6702/2D4C/700B/F33B/Catt._luteola_x_Laelia_harpophylla_ml.JPG"
-},
-{
-"type": "Other",
-"id": 22,
-"subtype": "Oncidium Leoquina",
-"desc": "Oncidium Leoquina",
-"humidity": "High",
-"light": "Indirect",
-"water": "As Needed",
-"temp": 15,
-"price": 140,
-"img": "https://www.ecuagenera.com/WebRoot/Store/Shops/ecuagenera/6465/4A33/7C75/2426/85AD/2D4C/700B/145F/Oda._Gael_Gettel_x_alexandrae-removebg-preview_ml.png"
 }
 ]
-
-### Endpoints
-
-TBD
-
-### Auth
-
-There is no authentication at the moment.
 
 ## Roadmap
 
