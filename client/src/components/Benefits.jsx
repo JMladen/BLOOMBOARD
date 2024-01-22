@@ -1,5 +1,5 @@
 import React from "react";
-import Benefit from "./subcomponent/Benefit";
+import Benefit from "./Benefit";
 import "./Benefits.scss";
 import b1 from "../images/benefit1.jpg";
 import b2 from "../images/benefit2.jpg";

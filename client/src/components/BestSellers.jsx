@@ -1,6 +1,6 @@
 import React from "react";
 
-import BestsellerCon from "./subcomponent/BestsellerCon";
+import BestsellerCon from "./BestsellerCon";
 import "./BestSellers.scss";
 import { useNavigate } from "react-router-dom";
 

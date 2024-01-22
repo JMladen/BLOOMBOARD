@@ -1,5 +1,5 @@
 import React from "react";
-import Weather from "../Weather";
+import Weather from "./Weather";
 import "./BestsellerCon.scss";
 
 export default function BestsellerCon({ plants }) {
@@ -8,7 +8,7 @@ export default function BestsellerCon({ plants }) {
     <div className="bestseller-con">
       {displayedPlants.map((plant, index) => (
         <div key={index} className="flex-container">
-          <img src={plant.img} alt="arrival" className="image" />
+          <img src={plant.img} alt="Best Seller" className="image" />
           <div className="text-container">
             <p className="title">{plant.subtype}</p>
             <p className="description">{plant.desc}</p>

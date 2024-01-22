@@ -1,0 +1,12 @@
+.plant-card {
+  width: 270px;
+  height: 30rem;
+  background-color: black;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 3px;
+  flex: none;
+  cursor: pointer;
+  scroll-snap-align: center;
+  position: relative;
+}

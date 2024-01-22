@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: #047857;
+  background-color: #00796b;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -9,6 +9,8 @@
   text-align: left;
   color: #ffffff;
   text-transform: uppercase;
+  // position: absolute;
+  // bottom: 100%;
   @media (min-width: 640px) {
     justify-content: space-between;
     flex-direction: row;

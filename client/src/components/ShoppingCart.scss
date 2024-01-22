@@ -1,0 +1,141 @@
+.shopping-cart-con {
+  margin-top: 8.5rem;
+  min-height: calc(100vh - 8.5rem - 8.5rem);
+}
+
+.alt-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.75rem;
+  padding-right: 2.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-btn {
+  font-size: 1.5rem;
+}
+
+// .cart-list {
+//   list-style: none;
+//   padding: 0;
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: center;
+// }
+
+// .cart-item {
+//   background-color: #f0f0f0;
+//   border-radius: 10px;
+//   padding: 20px;
+//   margin-bottom: 20px;
+//   width: calc(33.33% - 20px);
+//   max-width: 20%;
+
+//   box-sizing: border-box;
+//   display: flex;
+//   flex-direction: column;
+
+//   img {
+//     max-width: 100%;
+//     height: 20rem;
+//     border-radius: 8px;
+//   }
+
+//   h3 {
+//     margin-top: 10px;
+//   }
+
+//   p {
+//     margin-bottom: 10px;
+//   }
+// }
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.shopping-cart-subcon {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+  height: 7rem;
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+}
+
+.cart-item {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  // width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 300px;
+  min-width: 300px;
+  height: 32.5rem;
+  min-height: 30rem;
+  background-color: ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: none;
+  cursor: pointer;
+  scroll-snap-align: center;
+  position: relative;
+
+  img {
+    max-width: 100%;
+    min-width: 10rem;
+    width: 17.5rem;
+    height: 20rem;
+    min-height: 20rem;
+
+    border-radius: 8px;
+  }
+
+  h3 {
+    margin-top: 10px;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+.empty-button {
+  background-color: #00796b;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  // height: 45px;
+  // width: 130px;
+  min-width: 5rem;
+  min-width: 5rem;
+
+  &:hover {
+    background-color: #267d5c;
+  }
+}

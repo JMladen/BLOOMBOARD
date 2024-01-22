@@ -45,11 +45,11 @@
 }
 
 .new-arrivals-text {
-  width: 13.125rem; // Equivalent to w-[210px]
+  width: 13.125rem;
   text-align: center;
-  margin-bottom: 2.5rem; // Equivalent to mb-10
-  font-size: 0.75rem; // Equivalent to text-xs
-  color: #a0aec0; // Equivalent to text-gray-500
+  margin-bottom: 2.5rem;
+  font-size: 0.75rem;
+  color: #a0aec0;
 }
 
 .new-arrivals-input {
@@ -70,7 +70,7 @@
 
 .subscribe {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #047857;
+  background-color: #00796b;
   &:hover {
     background-color: #035c47;
   }

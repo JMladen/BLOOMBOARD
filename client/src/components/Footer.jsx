@@ -5,7 +5,9 @@ export default function Footer({ twitter, gmail }) {
   return (
     <div className="footer-container">
       <div className="logo-container">
-        <p className="logo-text">BLOOMBOARD</p>
+        <a className="logo-text" href="/">
+          BLOOMBOARD
+        </a>
       </div>
       <div className="social-container">
         <p className="follow-text">Follow us</p>
