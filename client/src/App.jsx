@@ -199,6 +199,8 @@ function ExplorePage({ plants, addToCart }) {
   return <PlantList plants={plants} addToCart={addToCart} />;
 }
 
+const apiUrl = process.env.REACT_APP_API_URL || "/";
+
 function App() {
   const [cart, setCart] = useState([]);
   const [plants, setPlants] = useState([]);
@@ -212,7 +214,7 @@ function App() {
   window.addEventListener("scroll", setFixed);
 
   useEffect(() => {
-    fetch("/api/plants")
+    fetch(apiUrl + "api/plants")
       .then((response) => response.json())
       .then((data) => setPlants(data))
       .catch((error) => console.error("Error fetching data:", error));
