@@ -211,8 +211,8 @@ export default function Header() {
             : "nav-version2 x special-navbar"
         }
       >
-        <div className="logo-text">
-          <a className="logo-text" href="/">
+        <div className="header-logo-text">
+          <a className="header-logo-text" href="/">
             BLOOMBOARD
           </a>
         </div>

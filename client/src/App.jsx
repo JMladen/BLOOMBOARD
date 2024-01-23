@@ -199,6 +199,7 @@ function ExplorePage({ plants, addToCart }) {
   return <PlantList plants={plants} addToCart={addToCart} />;
 }
 
+//// w/ alex
 const apiUrl = process.env.REACT_APP_API_URL || "/";
 
 function App() {
@@ -214,6 +215,7 @@ function App() {
   window.addEventListener("scroll", setFixed);
 
   useEffect(() => {
+    //// w/ alex
     fetch(apiUrl + "api/plants")
       .then((response) => response.json())
       .then((data) => setPlants(data))
