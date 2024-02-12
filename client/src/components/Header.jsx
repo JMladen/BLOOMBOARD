@@ -243,7 +243,6 @@ export default function Header() {
                 {showDropdown && (
                   <div className="dropdown-content">
                     <button onClick={handleSignupClick}>Signup</button>
-                    {/* Add more dropdown items as needed */}
                   </div>
                 )}
               </div>
